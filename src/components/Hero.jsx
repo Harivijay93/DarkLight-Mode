@@ -30,6 +30,27 @@ const Hero = () => {
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem recusandae neque temporibus incidunt? 
                   Placeat veritatis praesentium sit eveniet repellat iure libero odio modi saepe facilis. 
                 </p>
+                <div className='flex gap-3 items-center'>
+                  <div className='h-px bg-neutral-300 dark:bg-neutral-700 w-12'>    
+                  </div>
+                  <p className='uppercase text-xs tracking-widest text-neutral-500 dark:text-neutral-400
+                    font-medium'>Transition seamlessly</p>
+                </div>
+            </div>
+            <div className='flex flex-wrap gap-3 lg:gap-4'>
+              <button className='px-6 py-3 lg:px-7 lg:py-3.5 rounded-lg bg-neutral-900
+               hover:bg-black text-white dark:bg-amber-500 dark:hover:bg-amber-600 dark:text-neutral-900 
+               font-medium shadow-lg hover:shadow-neutral-900/20 dark:hover:shadow-amber-500/20 flex items-center
+               transition group'> <i className='bx bx-code-alt mr-2 lg:mr-3 text-lg lg:text-xl
+               group-hover:rotate-12 transition-transform'></i>
+               <span>Start Coding</span>
+               </button>
+              <button className='px-6 py-3 lg:px-7 lg:py-3.5 rounded-lg bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800
+               dark:hover:bg-neutral-700 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-white font-medium
+               flex items-center transition group'> <i className='bx bx-book-open mr-2 lg:mr-3 text-lg lg:text-xl opacity-70
+               group-hover:opacity-100 transition-opacity'></i>
+               <span>Documentation</span>
+               </button>
             </div>
           </div>
         </div>
