@@ -78,7 +78,15 @@ const Hero = () => {
                   <span className='font-bold text-neutral-900 dark:text-white'> 5,000+</span> developers worldwide</p>
               </div>
              </div>
-          </div>
+           </div>
+             <div className='flex-1 w-full'>
+                <div className='relative'>
+                  <div className='relative bg-white dark:bg-neutral-900 p-4 lg:p-5 xl:p-6 rounded-2xl
+                  shadow-2xl border border-neutral-200 dark:border-neutral-800'>
+                    <div className='flex items-center'></div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
     </div>
