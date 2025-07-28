@@ -13,9 +13,23 @@ const Hero = () => {
           <div className='flex-1 space-y-6 lg:space-y-7'>
             <div className='space-y-4 lg:space-y-5'>
               <div className='flex items-center'>
-                <span className='inline-flex items-center px-2 py-1 rounded-full text-xs font-medium
+                <span className='inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
                 bg-indigo-900 text-amber-400 mr-2'>New</span>
+                <h2 className='inline-block px-3 py-1.5 lg:px-4 lg:py-2 rounded-full bg-neutral-900 text-amber-400
+                text-sm backdrop-blur-sm border border-neutral-800/50'>
+                  <i className='bx bx-trending-up mr-1'> New Generation Design System</i>
+                </h2>
               </div>
+              <h1 className='text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight
+              text-neutral-900 dark:text-white'>
+                <span className='block mb-1'>Design</span>
+                <span className='bg-clip-text text-transparent bg-gradient-to-r from-amber-500 via-amber-400
+                to-amber-600'>Without Limits</span>
+                </h1>
+                <p className='text-base lg:text-lg text-neutral-700 dark:text-neutral-300 max-w-2xl font-light'>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem recusandae neque temporibus incidunt? 
+                  Placeat veritatis praesentium sit eveniet repellat iure libero odio modi saepe facilis. 
+                </p>
             </div>
           </div>
         </div>
