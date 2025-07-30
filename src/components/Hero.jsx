@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <div className='isolate'>
       <div className='absolute inset-0 -z-10'>
-       <div className='absolute top-0 -left-1/4 w-1/2 h-1/2 bg-amber-400 dark:bg-amber-500 rounded-full blur-3xl
-       opacity-20 animate-pulse'>        
+       <div className='absolute top-0 -left-1/4 w-1/2 h-1/2 bg-amber-400 dark:bg-amber-500 rounded-full 
+       blur-3xl opacity-20 animate-pulse '>        
        </div>
       </div>
       <div className='container mx-auto px-6 py-20 md:py-24 lg:py-28 xl:py-32'>
@@ -46,8 +46,8 @@ const Hero = () => {
                <span>Start Coding</span>
                </button>
               <button className='px-6 py-3 lg:px-7 lg:py-3.5 rounded-lg bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800
-               dark:hover:bg-neutral-700 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-white font-medium
-               flex items-center transition group'> <i className='bx bx-book-open mr-2 lg:mr-3 text-lg lg:text-xl opacity-70
+               dark:hover:bg-neutral-700 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-white 
+               font-medium flex items-center transition group'> <i className='bx bx-book-open mr-2 lg:mr-3 text-lg lg:text-xl opacity-70
                group-hover:opacity-100 transition-opacity'></i>
                <span>Documentation</span>
                </button>
@@ -61,8 +61,8 @@ const Hero = () => {
                 className='w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover' />
                 <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="user" 
                 className='w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover' />
-                <span className='flex items-center justify-center w-9 h-9 lg:w-10 lg:h-10 rounded-full 
-                border-2 border-white dark:border-neutral-900 bg-neutral-900 dark:bg-amber-500 text-white dark:text-neutral-900 text-xs font-medium'>
+                <span className='flex items-center justify-center w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white 
+                dark:border-neutral-900 bg-neutral-900 dark:bg-amber-500 text-white dark:text-neutral-900 text-xs font-medium'>
                   +5k</span>
               </div>
               <div className='space-y-1'>
